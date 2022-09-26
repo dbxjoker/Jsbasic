@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="arr"></p>
+	<p id="del_arr"></p>
+	<script>
+		let arr =['45,23,10,25,0,4,260,15,9,5'];
+		let filterArr = arr.filter(function(del_arr)
+			{
+				return del_arr %3 !==0 || del_arr % 5 !==0;
+			});
+		
+		 document.getElementById("arr").innerHTML = filterArr;
+	</script>
+</body>
+</html>

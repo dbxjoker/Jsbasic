@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p id="arr1"></p>
+
+    <script>
+    	function sumArray(Array)
+    	{
+    		let sum = 0;
+    		for (let i = 0; i < Array.length; i++) {
+    			sum += Array[i];
+    		}
+    		return sum;
+    	}
+
+        let Array = [43,23,67,21,0,4,266,13,9,5];
+
+       console.log(sumArray(Array));
+        document.getElementById("arr1").innerHTML = sumArray(Array);
+      
+      
+    </script>
+
+</body>
+</html>

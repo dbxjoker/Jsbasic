@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p id="arr1"></p>
+
+    <p id="arr2"></p>
+
+    <script>
+
+        const Array = [43,23,67,21,0,4,266,13,9,5];
+
+        document.getElementById("arr1").innerHTML = Array;
+
+        Array.sort(function(a, b){return a - b});
+
+        document.getElementById("arr2").innerHTML = Array;
+
+    </script>
+
+</body>
+</html>

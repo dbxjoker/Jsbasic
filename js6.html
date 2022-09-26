@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="str"></p>
+	<p id="del_str"></p>
+	<script>
+		let str =  "335AA36E-7884-43A4-9C91-7F87FAF3E37E";
+		 document.getElementById("str").innerHTML = str;
+		let b = str.slice(6,-6);
+		console.log(b);
+		let c = str.replace(/'str.slice(6,-6)'/g,'');
+		 document.getElementById("del_str").innerHTML = c;
+	</script>
+</body>
+</html>
